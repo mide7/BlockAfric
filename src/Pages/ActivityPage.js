@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Navigation from "./Navigation";
+import Header from "../Components/Header";
+import Navigation from "../Components/Navigation";
 
 function ActivityPage() {
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PrimaryButton from "./PrimaryButton";
-import "./Home.css";
+import "../css/Home.css";
 
 function Home() {
   const [currencyValue, setcurrencyValue] = useState("0.0000001");
