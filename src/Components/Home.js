@@ -43,7 +43,7 @@ function Home() {
       </div>
       <div className="recent background-grey pb-5">
         <div className=" p-2 text-light fw-bold">Recent Activity</div>
-        <div className="d-flex flex-column fw-bold fs-6 bg-light px-3 text-">
+        <div className="d-flex flex-column fw-bold fs-6 bg-light px-3 text-secondary">
           <div className="d-flex justify-content-between border-bottom p-2">
             <div>
               <img

@@ -18,7 +18,7 @@ function Navigation() {
   ];
 
   return (
-    <div className="d-flex justify-content-around flex-wrap nav-icon-container bg-light">
+    <div className="d-flex flex-nowrap justify-content-around flex-wrap nav-icon-container bg-light">
       {items.map((x) => {
         return <Nav name={x.name} url={x.url} icon={x.icon} key={x.name} />;
       })}
