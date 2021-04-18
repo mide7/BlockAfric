@@ -41,11 +41,11 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="recent background-grey pb-5">
+      <div className="recent background-grey pb-4">
         <div className=" p-2 text-light fw-bold">Recent Activity</div>
-        <div className="d-flex flex-column fw-bold fs-6 bg-light px-3 text-secondary">
+        <div className="d-flex flex-column fw-bold fs-6 bg-light px-2 text-secondary">
           <div className="d-flex justify-content-between border-bottom p-2">
-            <div>
+            <div className='me-2'>
               <img
                 src="/images/download.jpg"
                 alt="hiv test"
@@ -53,30 +53,30 @@ function Home() {
               />
             </div>
             <div>
-              <span className="text-start">HIV Blood Draw Test</span>
+              <span className="me-2">HIV Blood Draw Test</span>
             </div>
             <div>A100</div>
           </div>
           <div className="d-flex justify-content-between border-bottom p-2">
-            <div>
+            <div className='me-2'>
               <img
                 src="/images/download (1).jpg"
                 alt="tb"
                 className="home-recent-images"
               />
             </div>
-            <div className="text-left">TB Radiology XRay</div>
+            <div className="me-2">TB Radiology XRay</div>
             <div>A30</div>
           </div>
           <div className="d-flex justify-content-between border-bottom p-2 ">
-            <div>
+            <div className='me-2'>
               <img
                 src="/images/download (2).jpg"
                 alt="bp check"
                 className="home-recent-images"
               />
             </div>
-            <div>Blood Pressure Check</div>
+            <div className='me-2'>Blood Pressure Check</div>
             <div>A10</div>
           </div>
         </div>
