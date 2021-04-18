@@ -3,7 +3,7 @@ import PrimaryButton from "./PrimaryButton";
 import "../css/Home.css";
 
 function Home() {
-  const [currencyValue, setcurrencyValue] = useState("0.0000001");
+  const [currencyValue, setcurrencyValue] = useState(0);
   return (
     <div className="d-flex flex-column">
       <div className="home-balance d-flex w-100 text-light border mb-3">
@@ -32,7 +32,8 @@ function Home() {
               type="number"
               value={currencyValue}
               onChange={(e) => setcurrencyValue(e.target.value)}
-              className="w-100 home-input fw-bold"
+              className="w-100 home-input fw-bold ps-3"
+              min={0}
             />
           </div>
           <div className="d-flex w-100 justify-content-around my-3">
